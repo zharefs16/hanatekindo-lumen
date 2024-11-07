@@ -1,0 +1,28 @@
+{
+    "name": "bryanjack/umsapi",
+    "description": "Sample Modul Umsapi",
+    "type": "project",
+    "license": "MIT",
+    "version": "1",
+    "authors": [
+        {
+            "name": "bryanjack",
+            "email": "bryanjack99@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bryanjack\\Umsapi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bryanjack\\Umsapi\\UmsapiServiceProvider"
+            ]
+        }
+    }
+}
